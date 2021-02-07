@@ -1,4 +1,8 @@
  
 body {
-background: white; color: red;
+background: white; color: blue;
 } 
+body {background: white; color: green; }
+p {color: purple; font-family: arial}
+
+div.leipateksti {color: blue; font-family: courier}
