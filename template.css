@@ -5,7 +5,7 @@ background: white; color: blue;
 main{margin: 2em;}
 
 body {background: white; color: green; }
-p {color: purple; font-family: arial}
+p {color: black; font-family: arial}
 li.menu {display: inline; color:"black";}
 
 div.leipateksti {color: blue;
@@ -31,3 +31,37 @@ aside {
   font-style: italic;
   background-color: lightgray;
 }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+
+}
+
+.sarake1 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.sarake2 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.sarake3 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+
+
