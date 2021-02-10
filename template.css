@@ -1,0 +1,33 @@
+ 
+body {
+background: white; color: blue;
+}
+main{margin: 2em;}
+
+body {background: white; color: green; }
+p {color: purple; font-family: arial}
+li.menu {display: inline; color:"black";}
+
+div.leipateksti {color: blue;
+		 font-family: courier;
+		 border-width: 1px; border-style: dashed; border-color: red;
+		 padding: 2em;
+		 padding-top: 0px;
+		 margin: 2em;
+		 clear: both;
+		}
+
+span.huomaa {font-weight:bold}
+
+#h2-2 {color:yellow}
+
+aside {
+    width: 30%;
+    height: 5em;
+    overflow: scroll;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
