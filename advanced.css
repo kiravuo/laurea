@@ -1,0 +1,17 @@
+.navi {display:inline;}
+
+.leipateksti {
+    float:left;
+    width: 60%;
+	      
+}
+
+aside {
+    width: 30%;
+  padding-left: 5px;
+  margin-left: 5px;
+  float: right;
+  font-style: italic;
+}
+
+
