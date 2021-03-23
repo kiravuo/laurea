@@ -1,10 +1,39 @@
-.navi {display:inline;}
+body {
+  background-color: tan;
+}
+
+  .navi {display:inline;}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: lightblue;
+  }
+    .navi {display:block;
+	   color: green}
+}
+
+@media screen and (max-width: 600px) {
+    body {
+	background-color: olive;
+    }
+    .navi {display:block;
+	   color:red}
+}
+
+
 
 .leipateksti {
+    color: white;
     float:left;
     width: 60%;
-	      
+    background: url("Enigma.JPG");
+     background-size: 60% 100%;
 }
+
+p:hover {
+color: hsl(36,100%,50%);
+}
+
 
 aside {
     width: 30%;
@@ -12,6 +41,16 @@ aside {
   margin-left: 5px;
   float: right;
   font-style: italic;
+    box-shadow: 3px 3px 10px blue;
 }
 
+img {
+    box-shadow: 3px 3px 10px red;
+}
+x{
+    max-width: 100%;
+    height: auto; 
+}
 
+h1 {text-shadow: 3px 3px 10px red;
+   }
