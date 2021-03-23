@@ -4,7 +4,7 @@ body {
 
   .navi {display:inline;}
 
-@media screen and (max-width: 992px) {
+x@media screen and (max-width: 992px) {
   body {
     background-color: lightblue;
   }
@@ -12,7 +12,7 @@ body {
 	   color: green}
 }
 
-@media screen and (max-width: 600px) {
+x@media screen and (max-width: 600px) {
     body {
 	background-color: olive;
     }
@@ -22,7 +22,7 @@ body {
 
 
 
-.leipateksti {
+x.leipateksti {
     color: white;
     float:left;
     width: 60%;
@@ -30,7 +30,7 @@ body {
      background-size: 60% 100%;
 }
 
-p:hover {
+xp:hover {
 color: hsl(36,100%,50%);
 }
 
@@ -41,10 +41,10 @@ aside {
   margin-left: 5px;
   float: right;
   font-style: italic;
-    box-shadow: 3px 3px 10px blue;
+    xbox-shadow: 3px 3px 10px blue;
 }
 
-img {
+ximg {
     box-shadow: 3px 3px 10px red;
 }
 x{
@@ -52,5 +52,5 @@ x{
     height: auto; 
 }
 
-h1 {text-shadow: 3px 3px 10px red;
+xh1 {text-shadow: 3px 3px 10px red;
    }
