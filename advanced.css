@@ -2,17 +2,16 @@ body {
   background-color: tan;
 }
 
-  .navi {display:inline;}
+.navi {display:inline;}
 
-x@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 992px) {
   body {
     background-color: lightblue;
   }
-    .navi {display:block;
-	   color: green}
 }
 
-x@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
 	background-color: olive;
     }
@@ -22,35 +21,47 @@ x@media screen and (max-width: 600px) {
 
 
 
-x.leipateksti {
+  xh1 {text-shadow: 3px 3px 10px red;
+     }
+
+
+  
+
+.leipateksti {
     color: white;
     float:left;
     width: 60%;
-    background: url("Enigma.JPG");
-     background-size: 60% 100%;
+    xbackground: url("Enigma.JPG");
+     xbackground-size: 60% 100%;
 }
 
-xp:hover {
+
+ 
+li:hover {
 color: hsl(36,100%,50%);
 }
 
 
+  
 aside {
     width: 30%;
   padding-left: 5px;
   margin-left: 5px;
   float: right;
   font-style: italic;
-    xbox-shadow: 3px 3px 10px blue;
+/*    xbox-shadow: 3px 3px 10px blue;
+*/
 }
 
-ximg {
-    box-shadow: 3px 3px 10px red;
-}
-x{
+
+img {
     max-width: 100%;
     height: auto; 
 }
 
-xh1 {text-shadow: 3px 3px 10px red;
-   }
+
+/*
+    box-shadow: 3px 3px 10px red;
+*/
+
+

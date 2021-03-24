@@ -11,15 +11,16 @@
     <main>
       <h1>Lomakkeita</h1>
       <div class="">
+
 	<form action="http://jkorpela.fi/cgi-bin/echoraw.cgi" method="post">
 
 	  <label for="fname">Etunimi:</label>
-	  <input type="text" id="fname" name="fname"><br>
+	  <input type="text" id="fname" name="fname" tabindex="1"><br>
 
 	  <label for="lname">Sukunimi:</label>
-	  <input type="text" id="lname" name="lname"><BR>
+	  <input type="text" id="lname" name="lname" tabindex="2"><BR>
 
-	  <label for="gender">Valitse sukupuoli</label><BR>
+	  <label for="gender" tabindex="3">Valitse sukupuoli</label><BR>
 	  <input type="radio" id="male" name="gender" value="male" accesskey="a">
 	  <label for="male">Male</label><br>
 	  <input type="radio" id="female" name="gender" value="female"
@@ -39,27 +40,39 @@
 
 	  <P>Ajoneuvosi<P>
 	  <input type="checkbox" id="vehicle1" name="vehicle1"
-		 value="Bike" tabindex="1">
+		 value="Bike" tabindex="10">
 	  <label for="vehicle1"> I have a bike</label><br>
 	  <input type="checkbox" id="vehicle2" name="vehicle2"
-		 value="Car" tabindex="2">
+		 value="Car" tabindex="11">
 	  <label for="vehicle2"> I have a car</label><br>
 	  <input type="checkbox" id="vehicle3" name="vehicle3"
-		 value="Boat" tabindex="3">
+		 value="Boat" tabindex="12">
 	  <label for="vehicle3"> I have a boat</label><BR>
 
 	  	  <P>Kieli<P>
-	  <select name="language">
+	  <select name="language" tabindex="30">
 	    <option value="fi">Suomi</option>
 	    <option value="en">Englanti</option>
+	    <option value="sv">Ruotsi</option>
+	    <option value="ru">Venäjä</option>
+	    <option value="et">Viro</option>
+	    
 	  </select><BR>
 	  
 	   Low <input type="range" name="myChoice" id="myChoice"
 		      min="1" max="100"> High<BR>
 
+          <input type="hidden" name="userid" value="user7"> 
+
+ 	  <label for="color"> Valitse suosikkivärisi</label><br>
 	  <input type="text" name="color" id="color" list="colors">
 	  <datalist id="colors">
-	    <option value="red"> <option value="green"> <option value="blue"> <option value="yellow"> <option value="pink"> <option value="black">
+	    <option value="red">
+	    <option value="green">
+	    <option value="blue">
+	    <option value="yellow">
+	    <option value="pink">
+	    <option value="black">
 	  </datalist><BR>
 	  
 	  
