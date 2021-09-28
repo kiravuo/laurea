@@ -1,6 +1,16 @@
-body {background: white; color: black;}
+body {background: red; color: yellow;}
 
+/*
 p {color: black}
+*/
+
+
+ 
+div {
+background: black;
+   color: #ffffff;
+   border: 5px solid rgb(0, 255, 0); }
+
 
 #h2-2 {}
 
