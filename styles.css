@@ -1,23 +1,18 @@
-body { 
-    color: white; 
-    background-color: black; 
+body {
+    background: black;
+    color: white;
     }
 
-    h1 {
+.reunus {
+    border-width: 2px;
+    border-style: dotted;
+    color: red;
+}    
+
+h1    {
         font-size: 20px;
       }
-      
-      
-      p {
-        font-size: 16px;
-        font-size: 12px;
-        kdsajf: 34px;
-      }
 
-     .reunus {
-         border-style: dotted;
-         border-width: 2px;
-         border-color: red;
-         width: 100px;
-         height 100px;
-     }
+p      {
+        font-size: 12px;
+      }
