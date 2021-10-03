@@ -16,3 +16,19 @@ h1    {
 p      {
         font-size: 12px;
       }
+
+i {
+  border: 3px solid green;
+  margin: 10px;
+  padding: 2em;
+
+}
+
+a img {border: none;}
+
+a {border:  10px solid yellow;}
+img {border: 10px solid purple;}
+
+#kuva1 {height: 100px;}
+#kuva2 {height: 50px;}
+
