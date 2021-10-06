@@ -1,12 +1,33 @@
-/*body {background: red; color: yellow;}
-*/
 
-p {  font-size: 20px;
-  }
+body{
+    background-color: black;
+    color: white;
+}
 
+h1{
+    font-size: 20px; 
+}
 
+p {
+    font-size: 12px; 
+    color: green; 
+}
 
- 
+div {
+    border: dotted;
+    border-width: 2px;
+    width: 100px;
+    height: 100px; 
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
 skdjfdiv {
 background: black;
    color: #ffffff;
@@ -33,4 +54,4 @@ div.leipateksti2 {
   border-style: dotted;
 }
 
-a img {border: 3px solid blue;}
+aasd img {border: 3px solid blue;}
