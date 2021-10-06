@@ -1,6 +1,7 @@
 body {
-    background: black;
-    color: white;
+    background: rgb(109, 196, 218);
+    color: rgb(48, 12, 82);
+    background-image: url("xhttps://upload.wikimedia.org/wikipedia/commons/0/07/Alan_Turing_portr%C3%A9.jpg");
     }
 
 .reunus {
@@ -17,18 +18,44 @@ p      {
         font-size: 12px;
       }
 
-i {
-  border: 3px solid green;
-  margin: 10px;
-  padding: 2em;
 
-}
+a img {  border-width: 2px;
+  border-style: solid;
+  color: white;
+  border-radius: 5px;}
 
-a img {border: none;}
-
-a {border:  10px solid yellow;}
-img {border: 10px solid purple;}
+xa {border:  10px solid yellow;}
+ximg {border: 10px solid purple;}
 
 #kuva1 {height: 100px;}
 #kuva2 {height: 50px;}
 
+* {
+  box-sizing: border-box;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav {
+  float: left;
+  width: 30%;
+  background-color: darkgray;
+  color: white;}
+
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: darkkhaki ;
+  }
+#salaimet {background-color: chartreuse;}
+
+#turing {background-color: cyan;}
+
+#lorem {background-color: black;
+  color: white;}
+
+  .kuvat {border:  10px solid yellow;}
