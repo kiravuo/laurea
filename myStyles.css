@@ -1,13 +1,13 @@
-body {background: red; color: yellow;}
+/*body {background: red; color: yellow;}
+*/
 
-
-p {  font-size: 25px;
-  line-height: 50px;}
+p {  font-size: 20px;
+  }
 
 
 
  
-div {
+skdjfdiv {
 background: black;
    color: #ffffff;
    border: 5px solid rgb(0, 255, 0); }
@@ -17,25 +17,20 @@ background: black;
 
 .navi {display:inline;}
 
+/*
+i {border: 1px solid red;
+margin: 40px;}
+*/
 
-aside {
-    width: 30%;
-    height: 5em;
-    overflow: scroll;
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
-  font-style: italic;
-  background-color: lightgray;
+div.leipateksti {
+ border: 3px solid black;
+  padding: 15px;
+  margin: 20px;
 }
 
+div.leipateksti2 {
+  border: none;
+  border-style: dotted;
+}
 
-div.leipateksti {color: blue;
-		 font-family: arial;
-		 border-width: 1px; border-style: dashed; border-color: white;
-		 padding: 2px;
-		 padding: 5em;
-		 margin-left: 5em;
-		 margin-right: 10em;
-		 clear: both;
-		}
+a img {border: 3px solid blue;}
