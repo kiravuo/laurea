@@ -1,7 +1,9 @@
 body {
-    background: rgb(109, 196, 218);
+  background: rgb(109, 196, 218);
+    
+    background-image: url("Enigma.JPG");
+    background-size: 100%;
     color: rgb(48, 12, 82);
-    background-image: url("xhttps://upload.wikimedia.org/wikipedia/commons/0/07/Alan_Turing_portr%C3%A9.jpg");
     }
 
 .reunus {
@@ -12,6 +14,7 @@ body {
 
 h1    {
         font-size: 20px;
+    
       }
 
 p      {
@@ -30,22 +33,14 @@ ximg {border: 10px solid purple;}
 #kuva1 {height: 100px;}
 #kuva2 {height: 50px;}
 
-* {
-  box-sizing: border-box;
-}
 
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-nav {
+xnav {
   float: left;
   width: 30%;
   background-color: darkgray;
   color: white;}
 
-  article {
+xarticle {
     float: left;
     padding: 20px;
     width: 70%;
