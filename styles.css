@@ -1,61 +1,27 @@
 body {
-    background-image: url("Enigma.JPG");
-    background-size: 100%;
-    background: rgb(109, 196, 218);
-    color: rgb(48, 12, 82);
-    }
-
-* {
-  box-sizing: border-box;
+  background: rgb(158, 225, 241);
+  color: black;
+  font-family: Arial;
 }
+  
+x* { box-sizing: border-box; }
+
 
 nav {
   float: left;
   width: 30%;
   background-color: darkgray;
-  color: white;}
-
-article {
-    float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: darkkhaki ;
-  }
-
-#salaimet {background-color: chartreuse;}
-
-#turing {background-color: cyan;}
-
-.lorem {background-color: black;
-  color: white;}
-
-figure {border:  5px solid yellow;}
-
-img {border:  5px solid blueviolet;}
-
-.reunus {
-    border-width: 2px;
-    border-style: dotted;
-    color: red;
-}    
-
-h1    {
-        font-size: 20px;
-    
-      }
-
-p      {
-        font-size: 12px;
-      }
-
-
-a img {  border-width: 2px;
-  border-style: solid;
   color: white;
-  border-radius: 5px;}
+}
 
-xa {border:  10px solid yellow;}
-ximg {border: 10px solid purple;}
+nav ul { list-style-type: none; } 
+nav a { text-decoration: none; }
+nav a:hover { color: hsl(36,100%,50%); }
 
-#kuva1 {height: 100px;}
-#kuva2 {height: 50px;}
+main {
+  float: right;
+  width: 70%;
+  background-color: darkkhaki ;
+}
+
+footer {clear: both;}
