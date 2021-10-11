@@ -5,19 +5,14 @@ body {
   
 x* { box-sizing: border-box; }
 
-header {margin: auto; }
-
-p::first-letter {
-  font-size: 3em; 
-  float: left;
+.foo {
+  border: 1px solid red;
 }
 
-#enigma { float: right; }  
+x#enigma { float: left; }  
 
-#colossus { 
+x#colossus { 
   float: right;
-  xposition: absolute;
-  xtop 200px;
 }
 
 nav {
@@ -30,7 +25,7 @@ nav {
 
 nav ul { list-style-type: none; } 
 nav a { text-decoration: none; }
-nav a:hover { color: hsl(36,100%,50%); }
+xnav a:hover { color: pink; }
 
 main {
   float: left;
@@ -38,4 +33,9 @@ main {
   background-color: darkkhaki ;
 }
 
-footer {clear: both;}
+xfooter {clear: both;}
+
+xp::first-letter {
+  font-size: 3em; 
+  float: left;
+}
