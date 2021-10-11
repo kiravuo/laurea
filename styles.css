@@ -1,15 +1,29 @@
 body {
   background: rgb(158, 225, 241);
   color: black;
-  font-family: Arial;
 }
   
 x* { box-sizing: border-box; }
 
+header {margin: auto; }
+
+p::first-letter {
+  font-size: 3em; 
+  float: left;
+}
+
+#enigma { float: right; }  
+
+#colossus { 
+  float: right;
+  xposition: absolute;
+  xtop 200px;
+}
 
 nav {
   float: left;
   width: 30%;
+  font-family: Arial;
   background-color: darkgray;
   color: white;
 }
