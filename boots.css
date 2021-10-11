@@ -1,6 +1,7 @@
 body {
 }
   
+
 * { box-sizing: border-box; }
 
 nav {
@@ -20,7 +21,7 @@ main {
 
 footer {clear: both;}
 
-.bw { background-color: black;
+xxx.bw { background-color: black;
 color: white;}
 
 p:first-letter {
@@ -28,3 +29,7 @@ p:first-letter {
   float: left;
   margin-right: 5px;
 }
+
+.col-4 {color: red;}
+
+.col-sm-4 {background-color: pink;}
