@@ -12,12 +12,19 @@ nav ul { list-style-type: none; }
 nav a { text-decoration: none; }
 nav a:hover { color: hsl(36,100%,50%); }
 
+#enigma {float: right;}
+
 main {
   background-color: darkkhaki ;
 }
 
 footer {clear: both;}
 
-x.bw { background-color: black;
+.bw { background-color: black;
 color: white;}
 
+p:first-letter {
+  font-size: 2.7em; 
+  float: left;
+  margin-right: 5px;
+}
