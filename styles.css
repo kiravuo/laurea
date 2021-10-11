@@ -3,15 +3,18 @@ body {
   color: black;
 }
   
-x* { box-sizing: border-box; }
+* { box-sizing: border-box; }
 
 .foo {
   border: 1px solid red;
 }
 
-x#enigma { float: left; }  
+#enigma { 
+  display: inline; 
+  float: left;
+  border: 1px solid red;}  
 
-x#colossus { 
+#colossus { 
   float: right;
 }
 
@@ -25,17 +28,22 @@ nav {
 
 nav ul { list-style-type: none; } 
 nav a { text-decoration: none; }
-xnav a:hover { color: pink; }
+nav a:hover { color: pink; }
+xnav li {display: inline;}
 
 main {
-  float: left;
-  width: 70%;
+  float: right;
+  width: 50%;
   background-color: darkkhaki ;
+  padding: 20px;
 }
 
-xfooter {clear: both;}
+footer {clear: both;}
 
-xp::first-letter {
-  font-size: 3em; 
+p:first-letter {
+  font-size: 2.7em; 
   float: left;
+  margin-right: 5px;
 }
+
+#p5 {color: violet;}
