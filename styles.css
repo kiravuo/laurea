@@ -5,6 +5,28 @@ body {
   
 * { box-sizing: border-box; }
 
+nav {
+  float: left;
+  width: 30%;
+  font-family: Arial;
+  background-color: darkgray;
+  color: white;
+}
+
+main {
+  float: left;
+  width: 50%;
+  background-color: darkkhaki ;
+  padding: 20px;
+}
+
+xnav ul { list-style-type: none; } 
+xnav a { text-decoration: none; }
+xnav a:hover { color: pink; }
+xnav li {display: inline;}
+
+footer {clear: both;}
+
 .foo {
   border: 1px solid red;
 }
@@ -18,32 +40,11 @@ body {
   float: right;
 }
 
-nav {
-  float: left;
-  width: 30%;
-  font-family: Arial;
-  background-color: darkgray;
-  color: white;
-}
-
-nav ul { list-style-type: none; } 
-nav a { text-decoration: none; }
-nav a:hover { color: pink; }
-xnav li {display: inline;}
-
-main {
-  float: right;
-  width: 50%;
-  background-color: darkkhaki ;
-  padding: 20px;
-}
-
-footer {clear: both;}
-
 p:first-letter {
   font-size: 2.7em; 
   float: left;
   margin-right: 5px;
 }
+
 
 #p5 {color: violet;}
