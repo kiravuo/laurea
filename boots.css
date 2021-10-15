@@ -30,6 +30,10 @@ p:first-letter {
   margin-right: 5px;
 }
 
+.row {background-color: black;
+  color: white
+}
+
 .col-4 {color: red;}
 
 .col-sm-4 {background-color: pink;}

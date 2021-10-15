@@ -11,19 +11,23 @@ nav {
   font-family: Arial;
   background-color: darkgray;
   color: white;
+  padding: 20px;
 }
 
 main {
   float: left;
-  width: 50%;
+  width: 70%;
   background-color: darkkhaki ;
   padding: 20px;
 }
 
-xnav ul { list-style-type: none; } 
-xnav a { text-decoration: none; }
-xnav a:hover { color: pink; }
-xnav li {display: inline;}
+header ul { list-style-type: none; } 
+header li {display: inline;}
+header a { text-decoration: none; }
+header a:hover { color: red; }
+
+nav a { text-decoration: none; }
+nav a:hover { color: pink; }
 
 footer {clear: both;}
 
@@ -40,7 +44,7 @@ footer {clear: both;}
   float: right;
 }
 
-p:first-letter {
+p::first-letter {
   font-size: 2.7em; 
   float: left;
   margin-right: 5px;
