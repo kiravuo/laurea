@@ -2,9 +2,9 @@ body {
 }
   
 
-* { box-sizing: border-box; }
+X { box-sizing: border-box; }
 
-nav {
+xnav {
   background-color: darkgray;
   color: white;
 }
@@ -15,7 +15,7 @@ xnav a:hover { color: hsl(36,100%,50%); }
 
 #enigma {float: right;}
 
-main {
+xmain {
   background-color: darkkhaki ;
 }
 
