@@ -9,9 +9,9 @@ nav {
   color: white;
 }
 
-nav ul { list-style-type: none; } 
-nav a { text-decoration: none; }
-nav a:hover { color: hsl(36,100%,50%); }
+xnav ul { list-style-type: none; } 
+xnav a { text-decoration: none; }
+xnav a:hover { color: hsl(36,100%,50%); }
 
 #enigma {float: right;}
 
@@ -24,16 +24,16 @@ footer {clear: both;}
 xxx.bw { background-color: black;
 color: white;}
 
-p:first-letter {
+xp:first-letter {
   font-size: 2.7em; 
   float: left;
   margin-right: 5px;
 }
 
-.row {background-color: black;
+x.row {background-color: black;
   color: white
 }
 
-.col-4 {color: red;}
+x.col-4 {color: red;}
 
-.col-sm-4 {background-color: pink;}
+x.col-sm-4 {background-color: pink;}
