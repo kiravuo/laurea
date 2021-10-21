@@ -1,8 +1,17 @@
 body {
 }
-  
 
-X { box-sizing: border-box; }
+{ box-sizing: border-box; }
+
+.keskitetaan {margin: auto;}
+
+x.row {background-color: black;
+  color: white
+}
+
+x.col-4 {color: red;}
+
+x.col-sm-4 {background-color: pink;}
 
 xnav {
   background-color: darkgray;
@@ -21,8 +30,6 @@ xmain {
 
 footer {clear: both;}
 
-xxx.bw { background-color: black;
-color: white;}
 
 xp:first-letter {
   font-size: 2.7em; 
@@ -30,10 +37,3 @@ xp:first-letter {
   margin-right: 5px;
 }
 
-x.row {background-color: black;
-  color: white
-}
-
-x.col-4 {color: red;}
-
-x.col-sm-4 {background-color: pink;}
