@@ -9,7 +9,7 @@ x.row {background-color: black;
   color: white
 }
 
-x.col-4 {color: red;}
+.col-4 {color: red;}
 
 x.col-sm-4 {background-color: pink;}
 
