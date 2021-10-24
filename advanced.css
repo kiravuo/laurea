@@ -1,10 +1,24 @@
-body {
-  background-color: tan;
+body {}
+
+xh1 {text-shadow: 3px 3px 10px red;}
+
+.leipateksti {
+    color: black;
+    float:left;
+    width: 50%;
+    xbackground: url("Enigma.JPG");
+     xbackground-size: 60% 100%;
 }
 
-.navi {display:inline;}
-
-
+li:hover {
+  color: rgb(247, 97, 11);
+  xtransition: all 2s;
+}
+aside:hover {
+  xwidth: 45%;
+  xtransition: 5s;
+  }
+  
 @media screen and (max-width: 992px) {
   body {
     background-color: lightblue;
@@ -12,45 +26,19 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    body {
-	background-color: olive;
+  body {
+  	background-color: olive;
     }
     .navi {display:block;
 	   color:red}
 }
 
-
-
-  xh1 {text-shadow: 3px 3px 10px red;
-     }
-
-
-  
-
-.leipateksti {
-    color: white;
-    float:left;
-    width: 60%;
-    xbackground: url("Enigma.JPG");
-     xbackground-size: 60% 100%;
-}
-
-
- 
-li:hover {
-color: hsl(36,100%,50%);
-}
-
-
-  
 aside {
     width: 30%;
   padding-left: 5px;
   margin-left: 5px;
-  float: right;
+  float: left;
   font-style: italic;
-/*    xbox-shadow: 3px 3px 10px blue;
-*/
 }
 
 
@@ -59,6 +47,7 @@ img {
     height: auto; 
 }
 
+.navi {display:inline; font-size: 20px;}
 
 /*
     box-shadow: 3px 3px 10px red;

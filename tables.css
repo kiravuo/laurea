@@ -1,6 +1,12 @@
 table, td, th {
     border: 1px solid;
-    border-collapse: collapse;
+   
+}
+
+xtable {
+    
+    xborder-collapse: collapse;
+    xborder: none;   
 }
 /*
     border-collapse: collapse;
@@ -8,10 +14,12 @@ table, td, th {
     padding: 15px;
 */
 
-th {
+.reunat-pois {border: none;}
+
+xth {
     color:red;
 }
-td {
+xtd {
     text-align: center;
 }
 
