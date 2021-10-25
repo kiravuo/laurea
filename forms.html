@@ -8,28 +8,86 @@
 </head>
 
 <body>
-	<h1>Lomakkeita</h1>
 
 
 	<form action="https://www.w3schools.com/action_page.php" method="post">
 
-		<label for="fname">Etunimi:</label>
-		<input type="text" id="fname" name="fname" tabindex="1"><br>
+		<h1>Pakollinen lomake</h1>
 
-		<label for="lname">Sukunimi:</label>
-		<input type="text" id="lname" name="lname" tabindex="2"><BR>
+		<table>
+			<tr>
+				<td> <label for="fname">Etunimi:</label></td>
+				<td><input type="text" id="fname" name="etunimi" tabindex="1"><br></td>
+			</tr>
+			<tr>
+				<td><label for="lname">Sukunimi:</label></td>
+				<td> <input type="text" id="lname" name="lname" tabindex="2"><BR></td>
+			</tr>
+			<tr>
+				<td><label for="salasana">Salasana:</label></td>
+				<td><input type="password" id="salasana" name="salasana"><BR></td>
+			</tr>
+			<tr>
+				<td> <label for="color"> Valitse suosikkivärisi</label><br></td>
+				<td> <input type="text" name="color" id="color" list="colors">
+					<datalist id="colors">
+						<option value="red">
+						<option value="green">
+						<option value="blue">
+						<option value="yellow">
+						<option value="pink">
+						<option value="black">
+					</datalist><BR>
+				</td>
+			</tr>
+		</table>
+
+
+		<label for="gender" tabindex="3">Valitse sukupuoli</label><BR>
+		<input type="radio" id="male" name="gender" value="male" accesskey="a">
+		<label for="male">Male</label><br>
+
+		<input type="radio" id="female" name="gender" value="female" accesskey="b">
+		<label for="female">Female</label><br>
+
+		<input type="radio" id="other" name="gender" value="other" accesskey="c">
+		<label for="other">Other</label><BR>
+
+		<P>Ajoneuvosi
+			<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" tabindex="10">
+			<label for="vehicle1"> I have a bike</label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="Car" tabindex="11">
+			<label for="vehicle2"> I have a car</label><br>
+			<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" tabindex="12">
+			<label for="vehicle3"> I have a boat</label><BR>
+		</P>
+
+		<P>Kieli
+			<select name="language" tabindex="30" value="fi">
+				<option value="fi">Suomi</option>
+				<option value="en">Englanti</option>
+				<option value="sv">Ruotsi</option>
+				<option value="ru">Venäjä</option>
+				<option value="et">Viro</option>
+			</select><BR>
+		</P>
+
+		<input type="hidden" name="asiakaskuvaus" value="Asiakas on muuten tyhmä" />
+
+		Low <input type="range" name="myChoice" id="myChoice" min="1" max="100" value="5"> High<BR>
+
+
 		<input class="submit" type="submit" value="Lähetä">
+		<input class="reset" type="reset" value="Tyhjennä">
+
 
 	</form>
+
+
+
+
 	<!-- 
 
-	<label for="gender" tabindex="3">Valitse sukupuoli</label><BR>
-	<input type="radio" id="male" name="gender" value="male" accesskey="a">
-	<label for="male">Male</label><br>
-	<input type="radio" id="female" name="gender" value="female" accesskey="b">
-	<label for="female">Female</label><br>
-	<input type="radio" id="other" name="gender" value="other" accesskey="c">
-	<label for="other">Other</label><BR>
 
 	<P>Valitse sukupuoli ilman label-tagia:</P>
 
@@ -40,40 +98,13 @@
 	<input type="radio" id="other" name="gender2" value="other">
 	Other<BR>
 
-	<P>Ajoneuvosi
-	<P>
-		<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" tabindex="10">
-		<label for="vehicle1"> I have a bike</label><br>
-		<input type="checkbox" id="vehicle2" name="vehicle2" value="Car" tabindex="11">
-		<label for="vehicle2"> I have a car</label><br>
-		<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" tabindex="12">
-		<label for="vehicle3"> I have a boat</label><BR>
 
-	<P>Kieli
-	<P>
-		<select name="language" tabindex="30">
-			<option value="fi">Suomi</option>
-			<option value="en">Englanti</option>
-			<option value="sv">Ruotsi</option>
-			<option value="ru">Venäjä</option>
-			<option value="et">Viro</option>
-
-		</select><BR>
+	
 
 		Low <input type="range" name="myChoice" id="myChoice" min="1" max="100"> High<BR>
 
 		<input type="hidden" name="userid" value="user7">
 
-		<label for="color"> Valitse suosikkivärisi</label><br>
-		<input type="text" name="color" id="color" list="colors">
-		<datalist id="colors">
-			<option value="red">
-			<option value="green">
-			<option value="blue">
-			<option value="yellow">
-			<option value="pink">
-			<option value="black">
-		</datalist><BR>
 	
 	-->
 

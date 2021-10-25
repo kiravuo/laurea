@@ -1,27 +1,32 @@
 table, td, th {
     border: 1px solid;
-   
+   padding: 5px;
 }
 
-xtable {
-    
-    xborder-collapse: collapse;
-    xborder: none;   
-}
-/*
+table {
     border-collapse: collapse;
-    border-spacing: 5px;
-    padding: 15px;
-*/
+    border: none;   
+}
 
-.reunat-pois {border: none;}
+th {background-color: cadetblue;}
 
-xth {
+.reunat-pois {border: none;
+    background-color: none;}
+
+/*
+th {
     color:red;
 }
 xtd {
     text-align: center;
 }
+*/
+
+/*
+    border-collapse: collapse;
+    border-spacing: 5px;
+    padding: 15px;
+*/
 
 /*
 
