@@ -7,7 +7,7 @@ xh1 {text-shadow: 3px 3px 10px red;}
     float:left;
     width: 50%;
     xbackground: url("Enigma.JPG");
-     xbackground-size: 60% 100%;
+    xbackground-size: 60% 100%;
 }
 
 li:hover {
