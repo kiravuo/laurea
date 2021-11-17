@@ -1,4 +1,4 @@
-
+/*
 body{
     background-color: black;
     color: white;
@@ -35,7 +35,7 @@ background: black;
 
 
 #h2-2 {}
-
+*/
 .navi {display:inline;}
 
 /*
@@ -55,3 +55,11 @@ div.leipateksti2 {
 }
 
 aasd img {border: 3px solid blue;}
+
+footer {
+  position:absolute;
+   bottom:0;
+   width:100%;
+   xheight:60px;   /* Height of the footer */
+   background:#6cf;
+}
